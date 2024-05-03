@@ -1,0 +1,232 @@
+/* Index.css */
+body {
+    background-color: white; /* Set the background color of the entire page to white */
+    color: black; /* Set the default text color to black */
+    margin-left: -10; /* Remove default margin */
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+.homeContainer {
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    align-items: center;    /* Center items horizontally */
+    text-align: center;     /* Center text */
+    margin-bottom: 50px;
+}
+
+.homeTitle {
+    font-size: 60px;
+    font-weight: bold;
+    flex: 1; /* Takes up half of the flex container */
+}
+
+.homeLanding {
+    display: flex;
+    flex-direction: row; /* Align children horizontally */
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 2200px; /* Adjust based on your image and text width */
+    margin: auto; /* Centering the container */
+    background-color: black; /* Background color for the title and image container */
+    color: white; /* Text color for content within the container */
+    padding: 20px 0; /* Padding around the content */
+}
+
+.homeLandingText {
+    display: flex; /* Set the display to flex to enable flex properties */
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Center align the child elements horizontally */
+    margin-bottom: 200px; /* Space at the bottom of the container */
+    width: 100%; 
+}
+
+.homeLearnMoreButton {
+    color: 'white';
+    margin-top: 50px;
+    border-radius: 200px;
+    padding: 20px;
+}
+
+.homeImage {
+    width: 800px;
+    height: 700px;
+    margin-bottom: 20px; /* Add space below the image */
+    display: flex;
+    justify-content: center; /* Center the image within its container */
+    padding: 20px; /* Padding to prevent image touching the edges */
+}
+
+
+.section {
+    margin-top: 20px;
+    width: 80%; /* Control the width of sections */
+}
+
+.dexcomFitbitSection {
+    width: 100%; /* Control the width of sections */
+    max-width: 1800px; /* Maximum width */
+    height: 400px;
+    padding: 50px 20px; /* Padding for better spacing inside the section */
+    border-radius: 8px; /* Optional: rounds the corners */
+}
+
+.dexcomFitbitSectionTitle {
+    margin-bottom: 50px;
+    font-size: 70px;
+    margin-top: -10px;
+}
+
+
+.contactSectionTitle {
+    margin-bottom: 50px;
+    font-size: 50px;
+    margin-top: 10px;
+}
+
+.contactSectionContent {
+    margin-bottom: 5;
+    margin-top: 30;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+
+
+.coreFeaturesSection {
+    background-color: white; /* Correct background color without quotes */
+    color: black; /* Correct text color without quotes */
+    padding: 20px;
+    display: flex; /* Enables flexbox layout */
+    justify-content: space-between; /* Distributes space evenly between the columns */
+    align-items: start; /* Aligns items to the start of the container vertically */
+    flex-wrap: nowrap; /* Prevents wrapping into multiple lines */
+}
+
+.coreFeaturesSectionTitle {
+    width: 100%; /* Title takes full width */
+    text-align: center; /* Centers the title text */
+    font-size: 30px;
+    margin-top: 70px;
+    margin-bottom: -10px;
+    position: absolute; /* Positions the title absolutely relative to nearest positioned ancestor */
+    top: 0; /* Positions the title at the top */
+}
+
+.coreFeaturesSectionContent {
+    justify-content: center;
+    flex: 1; /* Each flex item takes equal width */
+    margin: 0 10px; /* Adds horizontal margin for spacing between columns */
+    font-size: 22px;
+    padding: 50px; /* Padding inside each column for better readability */
+    box-sizing: border-box; /* Includes padding and border in the element's total width and height */
+    
+}
+
+.container { /* Assuming the section is wrapped inside a container for positioning the title */
+    position: relative; /* Sets position context for the absolutely positioned title */
+    height: 750px; /* Adjust height to accommodate content and title */
+    padding-top: 150px; /* Padding at top to give space for the title */
+}
+
+.ourCommitmentSection {
+    background-color: black; /* Set the background color to black */
+    color: white; /* Set the text color to white */
+    padding: 20px; /* Add some padding around the content */
+    height: 400px;
+}
+
+.ourCommitmentSectionTitle {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 70px;
+}
+
+.ourCommitmentSectionContent {
+    margin-bottom: 5px; /* Fixed the missing unit (px) */
+    margin-top: 30px; /* Fixed the duplicated margin-top and added unit (px) */
+    font-size: 24px;
+}
+
+.dexcomFitbitSectionContent {
+    font-size: 25px;
+    line-height: 1.5;
+}
+
+.doSection {
+    width: 100%; /* Control the width of sections */
+    max-width: 1800px; /* Maximum width */
+    height: 300px;
+    padding: 50px 20px; /* Padding for better spacing inside the section */
+    background-color: #f4f4f4; /* Optional: background color to distinguish the section */
+    border-radius: 8px; /* Optional: rounds the corners */
+}
+
+.doSectionTitle {
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+.doSectionContent {
+    font-size: 22px;
+    line-height: 1.5;
+}
+
+
+
+.whoWeAreSection {
+    width: 100%; /* Control the width of sections */
+    max-width: 1800px; /* Maximum width */
+    height: 400px;
+    padding: 50px 20px; /* Padding for better spacing inside the section */
+    background-color: #f4f4f4; /* Optional: background color to distinguish the section */
+    border-radius: 8px; /* Optional: rounds the corners */
+}
+
+.whoWeAreSectionTitle {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+.whoWeAreSectionContent {
+    font-size: 25px;
+    line-height: 1.5;
+    margin-top: 50px;
+}
+
+.teamSection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: #fff;
+    width: 100%;
+}
+
+.teamSectionTitle {
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.teamMember {
+    margin-left: 90px;
+    width: 180px; /* Size of the image */
+    height: 180px; /* Size of the image */
+    border-radius: 50%; /* Makes images circular */
+    overflow: hidden; /* Ensures no part of the image spills outside the circular shape */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.teamMember img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the area without distorting its aspect ratio */
+}
+

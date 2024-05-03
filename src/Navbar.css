@@ -1,0 +1,37 @@
+/* Navbar.css */
+header {
+    background-color: white; /* White background for the entire header */
+    color: black; /* Default text color */
+    padding: 10px 20px;
+    height: 60px;
+    width: 100%; /* Ensures the header spans the full width of the viewport */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Optional: Adds a subtle shadow for depth */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%; /* Full width to align with the header */
+}
+
+nav ul li {
+    margin-right: 30px; /* Space between items */
+}
+
+nav ul li a {
+    color: black; /* Text color is black on white background */
+    padding: 10px 20px; /* Sufficient padding around the text */
+    text-decoration: none; /* No underline */
+    font-size: 22px; /* Larger font size for readability */
+    background-color: white; /* Background color is white */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+nav ul li a:hover {
+    background-color: black; /* Background turns black on hover */
+    color: white; /* Text color turns white on hover */
+}
